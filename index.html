@@ -1,0 +1,89 @@
+<html>
+    <body style="background: #161616; color: #bdbdbd; font-weight: 300; font-family: Helvetica neue, roboto;"></body>
+        <script language="javascript" type="text/javascript">
+            document.getElementById("button").addEventListener("click", random);
+            function random() {
+            var items = ['Katowice',
+                        'Częstochowa',
+                        'Sosnowiec',
+                        'Gliwice',
+                        'Zabrze',
+                        'Bielsko-Biała',
+                        'Bytom',
+                        'Ruda Śląska',
+                        'Rybnik',
+                        'Tychy',
+                        'Dąbrowa Górnicza',
+                        'Chorzów',
+                        'Jaworzno',
+                        'Jastrzębie-Zdrój',
+                        'Mysłowice',
+                        'Siemianowice Śląskie',
+                        'Żory',
+                        'Tarnowskie Góry',
+                        'Będzin',
+                        'Piekary Śląskie',
+                        'Racibórz',
+                        'Świętochłowice',
+                        'Zawiercie',
+                        'Wodzisław Śląski',
+                        'Mikołów',
+                        'Knurów',
+                        'Cieszyn',
+                        'Czechowice-Dziedzice',
+                        'Myszków',
+                        'Żywiec',
+                        'Czerwionka-Leszczyny',
+                        'Pszczyna',
+                        'Lubliniec',
+                        'Łaziska Górne',
+                        'Rydułtowy',
+                        'Kłobuck',
+                        'Czeladź',
+                        'Skoczów',
+                        'Orzesze',
+                        'Bieruń',
+                        'Pyskowice',
+                        'Radlin',
+                        'Radzionków',
+                        'Lędziny',
+                        'Ustroń',
+                        'Pszów',
+                        'Wisła',
+                        'Blachownia',
+                        'Wojkowice',
+                        'Poręba',
+                        'Imielin',
+                        'Kalety',
+                        'Miasteczko Śląskie',
+                        'Sławków',
+                        'Łazy',
+                        'Koniecpol',
+                        'Szczyrk',
+                        'Siewierz',
+                        'Kuźnia Raciborska',
+                        'Żarki',
+                        'Woźniki',
+                        'Ogrodzieniec',
+                        'Szczekociny',
+                        'Strumień',
+                        'Toszek',
+                        'Wilamowice',
+                        'Koziegłowy',
+                        'Krzanowice',
+                        'Pilica',
+                        'Sośnicowice',]
+            
+            var item = items[Math.floor(Math.random()*items.length)];
+            document.getElementById("result").innerHTML = item;
+            }
+        </script>
+
+        <div style="width: 100px;	height: 100px; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto;">
+            <p1 id="result"></p1>
+            <br>
+            <button id="button" onclick="random()">Random</button>
+        </div>
+    </body>
+</html>
+ 
